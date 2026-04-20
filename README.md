@@ -1,129 +1,85 @@
 Sales Dashboard (Power BI)
 Overview
-This project is an interactive Sales Dashboard built using Power BI.
-It provides insights into sales, revenue, returns, and customer segments across different countries, categories, and time periods.
 
-The dashboard is designed with a clean UI and interactive filters to help users analyze business performance efficiently.
+This project is an interactive Sales Dashboard built using Power BI. It provides insights into sales, revenue, returns, and customer segments across different countries, categories, and time periods.
 
-Key Objectives
+The dashboard is designed with a clean user interface and interactive filters to help users analyze business performance efficiently.
+
+Objectives
 Analyze total sales and revenue performance
-
 Track product categories and subcategories
-
 Monitor returns and discounts
-
 Compare sales across countries
-
 Provide interactive filtering for better insights
-
 Dataset Details
-The dataset used in this project follows a star schema model:
+
+The dataset follows a star schema model.
 
 Fact Tables
-Sales_Fact → Sales data
 
-Returns_Fact → Product returns
+Sales_Fact: Contains sales transactions
+Returns_Fact: Contains return data
 
 Dimension Tables
+
 Customer_Dim
-
 Product_Dim
-
 Region_Dim
-
 Date_Dim
-
-Tools & Technologies
+Tools and Technologies
 Power BI Desktop
-
-Power Query (Data Cleaning)
-
+Power Query for data cleaning
 Data Modeling (Star Schema)
-
 DAX (Data Analysis Expressions)
-
 Project Workflow
-1️ Data Import
-Loaded multiple datasets into Power BI
-
-2️ Data Cleaning
-Removed null values
-
-Fixed data types
-
-Cleaned and structured columns
-
-3️ Data Modeling
-Created relationships between fact & dimension tables
-
-Implemented star schema
-
-4️ DAX Measures
-Total Sales
-
-Total Quantity
-
-Total Returns
-
-Average Discount
-
+Data Import
+Loaded multiple datasets into Power BI using the Get Data option
+Data Cleaning
+Removed null values, corrected data types, and structured the dataset
+Data Modeling
+Created relationships between fact and dimension tables and implemented a star schema
+DAX Measures
+Created measures such as Total Sales, Total Quantity, Total Returns, and Average Discount
 Dashboard Features
-KPI Cards
+
+KPI Metrics
+
 Total Sales: 125K
-
 Total Quantity: 3K
-
 Total Returns: 100
+Average Discount: 9.36
 
-Avg Discount: 9.36
+Visualizations
 
-Visualizations Included
-- Total Returns by Brand & Category (Bar Chart)
-- Revenue by Subcategory & Category (Stacked Column Chart)
-- Sales by Country (Bar Chart)
-- Category-wise Sales Table
-- Segment-wise Revenue Table
+Total Returns by Brand and Category (Bar Chart)
+Revenue by Subcategory and Category (Stacked Column Chart)
+Sales by Country (Bar Chart)
+Category-wise Sales Table
+Segment-wise Revenue Table
 
-Filters (Slicers)
+Filters
+
 Category
-
 State
-
-Month (1–12)
-
+Month
 Dashboard Preview
-
-<img width="1107" height="737" alt="Screenshot 2026-04-20 120709" src="https://github.com/user-attachments/assets/63201e98-abee-4cef-9f15-0e73d667f42c" />
+<img width="1107" height="737" alt="Screenshot 2026-04-20 120709" src="https://github.com/user-attachments/assets/4e2b670b-bd86-4802-9028-c32162e903ed" />
 
 
 Key Insights
-🇺🇸 USA has the highest sales (~52K)
-
-🇮🇳 India and 🇩🇪 Germany show moderate performance
-
+USA has the highest sales (approximately 52K)
+India and Germany show moderate performance
 Clothing and Electronics categories perform strongly
-
-Some brands have higher return rates (needs attention)
-
-Discounts impact overall revenue trends
-
+Some brands have higher return rates
+Discounts influence revenue trends
 How to Use
-Download the .pbix file
-
-Open in Power BI Desktop
-
-Use slicers (Category, State, Month)
-
-Explore interactive visuals
-
+Download the PBIX file
+Open it in Power BI Desktop
+Use slicers such as Category, State, and Month
+Explore the dashboard interactively
 Project Files
-PROJECT NO 2.pbix → Main Dashboard
-
-README.md → Documentation
-
-Support
-If you like this project, give it a on GitHub!
+PROJECT NO 2.pbix: Main dashboard file
+README.md: Project documentation
 
 Author
 Dev Patel
-
