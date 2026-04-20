@@ -1,7 +1,3 @@
-Here is your clean and professional **GitHub README (without emojis or symbols):**
-
----
-
 # Sales Dashboard (Power BI)
 
 ## Overview
@@ -93,6 +89,8 @@ Filters
 ## Dashboard Preview
 
 <img width="1107" height="737" alt="Screenshot 2026-04-20 120709" src="https://github.com/user-attachments/assets/08b1073b-2a96-49a3-9f73-7dbf00b4dd59" />
+<img width="1140" height="635" alt="Screenshot 2026-04-20 121903" src="https://github.com/user-attachments/assets/4c3ed648-2e75-4fd9-878a-b796330d7b85" />
+
 
 
 ---
